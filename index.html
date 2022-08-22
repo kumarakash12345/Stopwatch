@@ -4,29 +4,57 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Stopwatch</title>
-    <link rel="stylesheet" href="s.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Project 2</title>
 </head>
 <body>
-    <div id="container">
-        <div id="time">
-         <span class="digit" id="hr">00</span>
-         <span class="txt">Hr</span>
-         <span class="digit" id="min">00</span>
-         <span class="txt">Min</span>
-         <span class="digit" id="sec">00</span>
-         <span class="txt">Sec</span>
-         <span class="digit" id="count">00</span>
-         
+    <div class="main">
+    <div class="navbar">
+        <div class="icon">
+            <h2 class="logo">Aakash Tutorial</h2>
         </div>
-        <div class="btn-container">
-<button class="btn" id="start" onclick="start()">Start</button>
-<button class="btn" id="stop" onclick="stop()"> Stop</button>
-<button class="btn" id="reset" onclick="reset()">Reset</button>
+        <div class="menu">
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">SERVICE</a></li>
+                <li><a href="#">DESIGN</a></li>
+                <li><a href="#">CONTACT</a></li>
+            </ul>
         </div>
-    </div>
-    <script src="script.js">
+        <div class="search">
+            <input class="srch"  type="search" name=" " placeholder="Type to text">
+            <a href="#"> <button class="btn">Search</button></a>
+        </div>
 
-    </script>
+    </div>
+    <div class="content">
+        <h1>Web  & <br><span>App Development</span><br>Course</h1>
+        <p class="par">Web development refers to the building, creating, and maintaining of websites. It includes aspects<br>such as web design, web publishing, web programming, and database management.<br> It is the creation of an application that works over the internet i.e. websites.</p>
+        <button class="cn"><a href="#">Join us</a></button>
+        <div class="form">
+            <h2>Login Here</h2>
+            <input type="email" name="email" placeholder="Enter email Here">
+            <input type="password" name="" placeholder="Enter password here">
+            <button class="btnn"><a href="#">Login</a></button>
+            <p class="link">Don't have an account </br>
+            <a href="#">Sign Up</a> Here</a></p>
+            <p class="liw">Log In With</p>
+
+            <div class="icon">
+                <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+                <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+                <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+                <a href="#"><ion-icon name="logo-google"></ion-icon></a>
+                
+            </div>
+        </div>
+         
+    </div>
+</div>
+</div>
+<script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js">
+
+</script>
 </body>
 </html>
